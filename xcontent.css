@@ -1,0 +1,102 @@
+/* Tipografía: Atkinson Hyperlegible */
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Atkinson Hyperlegible'), local('EncodeSans-Light'),
+       url(Atkinson-Hyperlegible-Regular-102a.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0100-024F, U+1E00-1EFF, U+20AB;
+}
+
+/* Estilos base */
+html, body {
+  min-height: 100%;
+}
+html {
+  padding: 0;
+}
+
+body {
+  font: 1.05em/1.4 "Atkinson Hyperlegible", Arial, Helvetica, sans-serif;
+  padding: 20px;
+  margin: 0;
+  text-align: left;
+  color: #444;
+
+  /* Imagen de fondo personalizada */
+  background-image: url("fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: #ffffff;
+}
+
+/* Contenedor principal del contenido */
+#outer {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+/* Enlaces */
+a {
+  color: #cc6715;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  font-weight: bold;
+  letter-spacing: .5px;
+}
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.4em; }
+h3 { font-size: 1.35em; }
+h4 { font-size: 1.2em; }
+h5 { font-size: 1.1em; }
+h6 { font-size: 1em; }
+
+/* Listas */
+ol, ul {
+  color: #444;
+}
+
+/* Formularios */
+input, select, textarea, .feedback {
+  font-family: "Atkinson Hyperlegible", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+/* Bloques de código */
+.pre-code, .highlighted-code {
+  font-family: "Atkinson Hyperlegible", Arial, Helvetica, sans-serif;
+  font-size: .9em;
+  border-radius: 0;
+}
+
+/* Títulos en cabecera */
+header#header #headerContent h1 {
+  color: #cc6715;
+  border: none;
+  margin-right: 75px;
+}
+#header h1 {
+  margin: 0;
+  font-size: 1em;
+  color: #00843D;
+}
+
+/* Pie de página */
+#siteFooter {
+  font-size: .95em;
+  margin: 25px 0;
+}
+#siteFooter a {
+  color: #DB0B00;
+}
