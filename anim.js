@@ -4,7 +4,17 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
- 
+  { text: "🎵", time: 3 },
+  { text: "Pues, no hace falta ", time: 7 },
+  { text: "que sea primavera en el hemisferio norte xD", time: 12 },
+  { text: "para que hayan flores amarillas en el mundo ", time: 17 },
+  { text: "y al menos aquí", time: 23 },
+  { text: "hay unas manzanillas Amarillas xD", time: 28 },
+  { text: "Ánimo siempre flaquita 🎶 ", time: 33 },
+  { text: "ánimo siempre flaquita 🎵🎶 ", time: 37 },
+  { text: "ánimo siempre flaquita 🎼🎵🎶 ", time: 42 },
+  { text: "Ánimo siempre flaquita 🎸🎼🎶🎵 ", time: 47 },
+  { text: "🎸🎼🎶🎵 ", time: 55 }, 
 ];
 
 // Animar las letras
